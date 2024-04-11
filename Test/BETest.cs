@@ -28,7 +28,15 @@ namespace Test
             beDictionary.Decode(ref buffer);
             Assert.Equal(3, beDictionary.DictionaryValue.Count);
         }
-
+        [InlineData("d1:ad2:id20:abcdefghij0123456789e1:q4:ping1:t2:aa1:y1:qe")]
+        [Theory]
+        public void BEDicDecode_Test3(string content)
+        {
+            var beDictionary = new BEDictionary();
+            var buffer = new Span<char>([.. content]);
+            beDictionary.Decode(ref buffer);
+            Assert.Equal(4, beDictionary.DictionaryValue.Count);
+        }
         [InlineData("li42e11:hello worldl4:20177:Copilotee")]
         [Theory]
         public void BEList_Test1(string content)
@@ -46,6 +54,13 @@ namespace Test
             var buffer = new Span<char>([.. content]);
             beList.Decode(ref buffer);
             Assert.Equal(3, beList.ListValue.Count);
+
+
+            var beNumber = new BENumber(20);
+            var encodeData = beNumber.Encode();
         }
+
+
+
     }
 }

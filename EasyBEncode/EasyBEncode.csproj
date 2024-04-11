@@ -1,8 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Version>0.0.0.1</Version>
+		<Title>EasyBEncode</Title>
+		<Authors>fallingrust</Authors>
+		<Company>fallingrust</Company>
+		<Description>基于C#的BEncode编码实现</Description>
+		<PackageProjectUrl>https://github.com/fallingrust/EasyBEncode</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/fallingrust/EasyBEncode</RepositoryUrl>
+	</PropertyGroup>
 
 </Project>
