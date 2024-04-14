@@ -12,10 +12,12 @@ namespace EasyBEncode
         public BEValue()
         {
             
-        }      
+        }
 
-        public abstract string Encode();
+        public abstract void Decode(ref Span<byte> buffer);
 
-        public abstract void Decode(ref Span<char> buffer);
+        public abstract void Encode(ref Span<byte> buffer, ref int index);
+        public abstract int LengthInBytes();
+       
     }
 }
