@@ -13,6 +13,8 @@ namespace EasyBEncode
     {
         public string StringValue { get => Encoding.UTF8.GetString(TextBytes.Span); }
 
+        public string HexStringValue { get => BitConverter.ToString(TextBytes.Span.ToArray()).Replace("-", "").ToLower(); }
+
         public ReadOnlyMemory<byte> TextBytes { get; private set; }
         public BEString()
         {
