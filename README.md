@@ -4,16 +4,16 @@
   <img alt="Stars" src="https://buildstats.info/nuget/EasyBEncode">
 </a>
 <a href="https://github.com/fallingrust/EasyBEncode/graphs/contributors">
-<img alt="Contributors" src="https://img.shields.io/github/contributors/fallingrust/EasyBEncode.svg?style=flat-square">
+<img alt="Contributors" src="https://img.shields.io/github/contributors/EasyTorrent/EasyBEncode.svg?style=flat-square">
 </a>
 <a href="https://github.com/fallingrust/EasyBEncode/network/members">
-<img alt="Forks" src="https://img.shields.io/github/forks/fallingrust/EasyBEncode.svg?style=flat-square">
+<img alt="Forks" src="https://img.shields.io/github/forks/EasyTorrent/EasyBEncode.svg?style=flat-square">
 </a>
 <a href="https://img.shields.io/github/issues/fallingrust/EasyBEncode.svg">
-<img alt="Issues" src="https://img.shields.io/github/issues/fallingrust/EasyBEncode.svg?style=flat-square">
+<img alt="Issues" src="https://img.shields.io/github/issues/EasyTorrent/EasyBEncode.svg?style=flat-square">
 </a>
 <a href="https://github.com/fallingrust/EasyBEncode/blob/master/LICENSE.txt">
-<img alt="MIT License" src="https://img.shields.io/github/license/fallingrust/EasyBEncode">
+<img alt="MIT License" src="https://img.shields.io/github/license/EasyTorrent/EasyBEncode">
 </a>
 
 ### 关于
